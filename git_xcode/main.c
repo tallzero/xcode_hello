@@ -15,5 +15,6 @@ int main(int argc, const char * argv[]) {
     printf("World, WRYYYYYYY!!!");
     printf("Hello, Luna");
     printf("Hello, Earth");
+    printf("Conflict Main");
     return EXIT_SUCCESS;
 }
