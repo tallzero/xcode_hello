@@ -18,5 +18,6 @@ int main(int argc, const char * argv[]) {
     printf("Conflict hotfix");
     printf("Conflict Main");
     printf("Both accepted!!");
+    printf("Hello! GitHub");
     return EXIT_SUCCESS;
 }
