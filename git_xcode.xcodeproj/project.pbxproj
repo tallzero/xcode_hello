@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B4FCEAEB2F0D0A0300787166 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = B4FCEAEA2F0D09FA00787166 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		B4FCEADE2F0D029300787166 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		B4FCEAE02F0D029300787166 /* git_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = git_xcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCEAEA2F0D09FA00787166 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +49,7 @@
 		B4FCEAD72F0D029300787166 = {
 			isa = PBXGroup;
 			children = (
+				B4FCEAEA2F0D09FA00787166 /* .gitignore */,
 				B4FCEAE22F0D029300787166 /* git_xcode */,
 				B4FCEAE12F0D029300787166 /* Products */,
 			);
@@ -93,6 +99,7 @@
 				TargetAttributes = {
 					B4FCEADF2F0D029300787166 = {
 						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
 					};
 				};
 			};
@@ -120,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FCEAEB2F0D0A0300787166 /* .gitignore in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,16 +252,21 @@
 		B4FCEAE82F0D029300787166 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		B4FCEAE92F0D029300787166 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
