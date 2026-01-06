@@ -14,5 +14,6 @@ int main(int argc, const char * argv[]) {
     printf("Hello, Miku");
     printf("World, WRYYYYYYY!!!");
     printf("Hello, Luna");
+    printf("Hello, Earth");
     return EXIT_SUCCESS;
 }
